@@ -1,0 +1,14 @@
+<div class="tab-group">
+  <mat-tab-group (selectedTabChange)="tabChanged($event)" [(selectedIndex)]="currentTabPosition">
+    <mat-tab label="About">
+    </mat-tab>
+    <mat-tab label="Projects">
+    </mat-tab>
+    <mat-tab label="Blog">
+    </mat-tab>
+    <mat-tab label="Contact">
+    </mat-tab>
+  </mat-tab-group>
+</div>
+
+<router-outlet></router-outlet>
